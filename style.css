@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+*::selection {
+    color:aliceblue;
+
+    background-color: black;
+}
+#nav {
+    padding: 25px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color:rgb(247, 181, 94) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navpart2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+
+
+}
+#navpart2 a{
+    color: #fff;
+}
+#page1 {
+    min-height: 100vh;
+    width: 100%;
+    padding: 0vh 3vw;
+    padding-top:  15vw;
+    position: relative;
+
+
+}
+#page1 h1{
+    font-size : 15vw; ;
+    text-transform: uppercase;
+    line-height: 14vw;
+
+}
+#videocontainer {
+    background-color: grey;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* object-fit: cover; */
+}
+#videocontainer video {
+    margin-top: 1vw;
+    height:100%;
+    width: 100%;
+object-fit: cover;
+}
+#videocontainer #play {
+    padding: 3vw 2vw ;
+    color: #fff;
+    position: fixed;
+    font-size: 2vw;
+    background-color: black;
+    border-radius: 45%;
+    opacity: 0;
+    scale: 0;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+#page2 .elem{
+    height: 100%;
+    width: 30%;
+    /* background-color: red; */
+}
+#page2 .elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:600px) {
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
